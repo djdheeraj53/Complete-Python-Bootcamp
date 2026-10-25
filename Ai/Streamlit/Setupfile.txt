@@ -1,0 +1,5 @@
+pip installed with python
+
+---Project setup---
+1. virtual environment
+    python -m venv ai-env
