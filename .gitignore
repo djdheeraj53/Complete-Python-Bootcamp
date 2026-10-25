@@ -1,0 +1,31 @@
+
+# Environment variables files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Keep example environment templates
+!.env.example
+!**/.env.example
+
+# Python virtual environments
+ai-env/
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore these folders anywhere in the project
+**/ai-env/
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# macOS files
+.DS_Store
